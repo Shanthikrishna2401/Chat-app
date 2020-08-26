@@ -1,0 +1,57 @@
+
+body{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(chat-app\ bg-image.jpg);
+}
+.logo{
+    display: block;
+    margin: auto;
+    width: 86px;
+    height: 81px;
+    padding:20px ;
+}
+.container{
+max-width: 800px;
+background-color: rgb(135, 235, 165);
+margin: auto;
+height: 60vh;
+overflow-y: auto; /* scroll bar appeaers when there are lots of messages being sent */
+border-radius: 5px;
+}
+.message{
+    background-color: cornsilk;
+    width: 25%;
+    margin: 21px 11px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+.right{
+    float: right;
+    clear: both;
+
+}
+.left{
+    float: left;
+    clear: both;
+
+}
+#send-container{
+    padding: 20px;
+    text-align: center;
+}
+#mesg-input{
+    width: 57%;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.btn{
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 5px;
+    height:24px ;
+}
